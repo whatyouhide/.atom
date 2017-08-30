@@ -1,0 +1,32 @@
+"*":
+  core:
+    packagesWithKeymapsDisabled: [
+      "git-blame"
+      "atom-elixir"
+    ]
+    telemetryConsent: "no"
+  editor: {}
+  "exception-reporting":
+    userId: "a2c8b85a-102d-4ec8-a06b-3551f4a25716"
+  "git-blame":
+    columnWidth: 362
+  "process-palette":
+    shell: "/usr/local/bin/zsh"
+  "project-plus": {}
+  "todo-show":
+    ignoreThesePaths: [
+      "node_modules"
+      "vendor"
+      "bower_components"
+      "_build"
+      "deps"
+    ]
+    showInTable: [
+      "Type"
+      "Text"
+      "Path"
+    ]
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false

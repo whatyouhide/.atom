@@ -1,0 +1,12 @@
+packages: [
+  "atom-elixir"
+  "file-icons"
+  "git-blame"
+  "language-elixir"
+  "language-erlang"
+  "language-haskell"
+  "package-sync"
+  "process-palette"
+  "project-plus"
+  "todo-show"
+]
