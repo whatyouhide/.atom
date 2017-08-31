@@ -4,12 +4,16 @@
       "git-blame"
       "atom-elixir"
     ]
+    projectHome: "/Users/andrea/Code"
     telemetryConsent: "no"
-  editor: {}
+  editor:
+    preferredLineLength: 98
   "exception-reporting":
     userId: "a2c8b85a-102d-4ec8-a06b-3551f4a25716"
   "git-blame":
     columnWidth: 362
+  "package-sync":
+    createOnChange: true
   "process-palette":
     shell: "/usr/local/bin/zsh"
   "project-plus": {}
