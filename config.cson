@@ -3,9 +3,14 @@
     packagesWithKeymapsDisabled: [
       "git-blame"
       "atom-elixir"
+      "todo-show"
     ]
     projectHome: "/Users/andrea/Code"
     telemetryConsent: "no"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
   editor:
     preferredLineLength: 98
   "exception-reporting":
