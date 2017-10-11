@@ -41,6 +41,7 @@
 'atom-text-editor:not(mini)[data-grammar^="source elixir"]':
   'alt-cmd-j': 'atom-elixir:goto-definition'
   'f2': 'atom-elixir:show-elixir-docs'
+  'ctrl-cmd-f': 'elixir:format'
 
 '.platform-darwin atom-text-editor:not(mini)':
   'alt-cmd-k': 'atom-elixir:return-from-definition'
