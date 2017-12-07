@@ -1,4 +1,7 @@
 "*":
+  "atom-elixir-formatter":
+    elixirExecutable: "/Users/andrea/Code/elixir/bin/elixir"
+    formatOnSave: "whenFormatterFilePresent"
   core:
     packagesWithKeymapsDisabled: [
       "git-blame"
@@ -35,6 +38,9 @@
       "Text"
       "Path"
     ]
+  "tree-view":
+    alwaysOpenExisting: true
+    autoReveal: true
   welcome:
     showOnStartup: false
   whitespace:
