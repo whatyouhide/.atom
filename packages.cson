@@ -1,4 +1,5 @@
 packages: [
+  "atom-elixir-formatter"
   "atom-elixir"
   "file-icons"
   "git-blame"
