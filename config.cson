@@ -3,6 +3,17 @@
     elixirExecutable: "/Users/andrea/Code/elixir/bin/elixir"
     formatOnSave: "whenFormatterFilePresent"
   core:
+    customFileTypes:
+      "source.ini": [
+        ".hgrc"
+        ".buckconfig"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
     packagesWithKeymapsDisabled: [
       "git-blame"
       "atom-elixir"
@@ -11,8 +22,8 @@
     projectHome: "/Users/andrea/Code"
     telemetryConsent: "no"
     themes: [
-      "one-light-ui"
-      "one-light-syntax"
+      "one-dark-ui"
+      "dracula-syntax"
     ]
   editor:
     preferredLineLength: 98
@@ -20,11 +31,19 @@
     userId: "a2c8b85a-102d-4ec8-a06b-3551f4a25716"
   "git-blame":
     columnWidth: 362
+  "one-dark-ui": {}
   "package-sync":
     createOnChange: true
   "process-palette":
     shell: "/usr/local/bin/zsh"
-  "project-plus": {}
+  "project-plus":
+    showPath: true
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    scrollSyncType: "Vertical + Horizontal"
   "todo-show":
     ignoreThesePaths: [
       "node_modules"

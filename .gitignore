@@ -7,3 +7,5 @@ storage
 .npm
 packages/
 atom-shell/
+recovery/
+split-diff/
